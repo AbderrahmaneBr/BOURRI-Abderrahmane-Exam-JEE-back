@@ -4,9 +4,11 @@ package org.example.examback.domain.mappers;
 import org.example.examback.domain.entites.*;
 import org.example.examback.dto.*;
 import org.springframework.beans.BeanUtils;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class dtoMapper {
 
     public ClientDTO fromClient(Client client) {
